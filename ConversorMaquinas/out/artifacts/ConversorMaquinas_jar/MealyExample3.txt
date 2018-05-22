@@ -1,0 +1,7 @@
+( mealy
+( symbols-in a b )
+( symbols-out X Y Z )
+( states s1 s2 s3 s4 )
+( start s1 )
+( finals s4 )
+( trans ( s1 s2 a X ) ( s3 s2 b Y ) ( s2 s2 a Z ) ( s2 s4 b X ) ( s3 s4 a Y ) ) )
