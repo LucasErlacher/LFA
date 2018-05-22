@@ -22,8 +22,11 @@ Foi utilizado as seguintes classes: *App, ConversorMaquina (Interface), Converso
 _Não é necessário compilar o programa._
 
 ### Nome e Modo de Uso:
-O nome do programa é **ConversorMaquinas**, para que seja executado via linha de comando, basta entrar no diretório em que os arquivos se localizam via terminal e digitar o seguinte comando:
+O nome do programa é **ConversorMaquinas**, para que seja executado via linha de comando, basta entrar no diretório em que os arquivos _conversorMaquinas_ e _ConversorMaquinas.jar_ se localizam via terminal e digitar o seguinte comando:
 
 > ./conversorMaquinas -i <_ArquivoEntrada_> -o <_ArquivoSaída_>
 
 O algorítmo irá procurar o arquivo de entrada e criar um novo arquivo de saída, caso este não seja encontrado um erro é retornado e o programa é encerrado.
+
+### Observação:
+Os arquivos de entradas devem estar no mesmo diretório do arquivo _ConversorMaquinas.jar_.
